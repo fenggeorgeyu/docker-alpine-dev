@@ -1,0 +1,9 @@
+
+version: "3"
+
+services:
+  alpine-dev:
+    image: fenggeorgeyu/alpine-dev
+    entrypoint: sh
+
+
