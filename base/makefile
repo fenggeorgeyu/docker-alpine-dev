@@ -3,7 +3,7 @@ tag=base
 image_name=alpine-dev
 name=fenggeorgeyu/${image_name}:${tag}
 container_name=alpine1
-all: build push
+all: build
 
 build:
 	docker build -t ${name} .
